@@ -1,0 +1,11 @@
+/* pages/modify/modify.wxss */
+.nameIpt{
+  display: flex;
+  line-height: 100rpx;
+  align-items: center;
+  background-color: ghostwhite;
+  margin-bottom: 10rpx;
+}
+button{
+  width: 70%;
+}

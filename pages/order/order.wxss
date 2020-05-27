@@ -1,0 +1,21 @@
+/* pages/order/order.wxss */
+.welcome {
+  text-align: center;
+  font-size: 45rpx;
+  color: brown;
+  margin: 40rpx 0;
+}
+.content{
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10rpx;
+  line-height: 100rpx;
+  background-color: ghostwhite;
+}
+.time{
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}

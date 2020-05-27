@@ -1,0 +1,29 @@
+/* pages/address/address.wxss */
+.one{
+  display: flex;
+  background-color: ghostwhite;
+  line-height: 100rpx;
+  margin-bottom: 10rpx;
+}
+.one >view{
+  margin-right: 70rpx;
+}
+.addAddress{
+  background-color: ghostwhite;
+  line-height: 100rpx;
+  position: fixed;
+  bottom: 0;
+}
+.addAddress >image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.text{
+  position: fixed;
+  bottom: 25rpx;
+  left: 100rpx;
+}
+.right{
+  position: fixed;
+  right: 0;
+}

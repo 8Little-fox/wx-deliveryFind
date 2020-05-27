@@ -1,0 +1,18 @@
+<view class="info">
+<view class="head">
+<span>头像</span>
+<view class="headUrl">
+<image src="{{imgUrl}}" class="imgUrl" bindtap="chaneImg"></image>
+<image src="../img/右.png" class="arrow"></image>
+</view>
+</view>
+<view class="head">
+  <view>昵称</view>
+  <view>{{username}}</view>
+</view>
+<view class="head">
+  <view>性别</view>
+  <view>{{gender}}</view>
+</view>
+<button bindtap="jump" type="primary">修改资料</button>
+</view>

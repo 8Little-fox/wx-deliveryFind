@@ -1,0 +1,22 @@
+/* pages/detail/detail.wxss */
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  line-height: 100rpx;
+  background-color: ghostwhite;
+  margin-top: 20rpx;
+  margin: 20rpx;
+}
+.imgUrl{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.arrow{
+  height: 80rpx;
+  width: 80rpx;
+}
+button{
+  width: 70%;
+}

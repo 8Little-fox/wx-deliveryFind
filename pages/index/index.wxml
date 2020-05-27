@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="nav-item">
+<view class="nav">
+  <text class="welcome">欢迎来到我的个人主页</text>
+  <image src="../img/header.jpg" mode="aspectFill" bindtap="changeImage"></image>
+</view>
+<view class="content">
+  <view> 昵称：琳妹儿</view>
+  <view>星座：白羊座</view>
+  <view>兴趣：学习，旅游</view>
+  <view>QQ：3462540450@qq.com</view>
+  <view>电话：18842323905</view>
+</view>
+
+</view>

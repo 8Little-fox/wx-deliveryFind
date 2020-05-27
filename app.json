@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Person/person",
+    "pages/detail/detail",
+    "pages/modify/modify",
+    "pages/order/order",
+    "pages/address/address"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CC0000",
+    "navigationBarTitleText": "个人中心",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f7982a",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/img/首页1.png",
+        "selectedIconPath": "/pages/img/首页.png"
+      },
+      {
+        "pagePath": "pages/Person/person",
+        "text": "个人中心",
+        "iconPath": "/pages/img/user.png",
+        "selectedIconPath": "/pages/img/user1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

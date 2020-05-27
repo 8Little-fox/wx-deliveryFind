@@ -1,0 +1,21 @@
+<!--pages/order/order.wxml-->
+<view>
+  <view class="welcome">欢迎进入快递查询系统</view>
+    <view class="content">
+      <label>快递公司：</label>
+      <picker bindchange="companyInput" value="{{index}}" range="{{com}}">
+       <view>{{com[index]}}</view>
+      </picker>   
+    </view>
+     <view class="content"> 
+      <label>运单号：</label>
+      <input type="number" bindinput="noInput" placeholder="请输入运单号"></input>
+    </view>
+  <button bindtap="search" type="primary">查询</button>
+  <scroll-view scroll-y class="orderlist"> 
+  <view wx:for="{{expressInfo.newslist[0].list}}" wx:key="*this">
+    <text class="time">[{{item.time}}]</text>
+    <view>{{item.content}}</view>
+  </view>
+  </scroll-view>
+</view>

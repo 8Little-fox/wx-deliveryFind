@@ -1,0 +1,33 @@
+<!--pages/Person/person.wxml-->
+<view class="header">
+  <image src="../img/header.jpg" mode="aspectFill"></image>
+</view> 
+<view class="icon-list">
+  <view>
+  <image src="../img/dfk.png"></image>
+  <view>待付款</view>
+  </view>
+  <view>
+  <image src="../img/ytk.png"></image>
+  <view>已退款</view>
+  </view>
+  <view>
+  <image src="../img/qbdd.png"></image>
+  <view>全部订单</view>
+  </view>
+</view>
+<view class="menu">
+  <view bindtap="info">个人资料
+    <image src="../img/right.png"></image>
+  </view>
+  <view bindtap="order">订单物流查询
+   <image src="../img/right.png"></image>
+  </view>
+   <view bindtap="address">选择收货地址
+   <image src="../img/right.png"></image>
+  </view>
+   <view bindtap="contact">客服联系方式
+   <image src="../img/right.png"></image>
+  </view>
+
+</view>
